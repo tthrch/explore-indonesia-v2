@@ -30,18 +30,23 @@ $color-red: #e63946;
     button {
       background: none;
       border: none;
+      padding: 0;
       cursor: pointer;
       color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
-    svg {
-      width: 20px;
-      height: 20px;
-      fill: #ffffff;
+    .search-btn svg {
+      width: 18px;
+      height: 18px;
+      stroke: #ffffff; 
     }
 
     .menu-btn {
-      font-size: 22px;
+      font-size: 18px; 
+      line-height: 1;
     }
   }
 }
